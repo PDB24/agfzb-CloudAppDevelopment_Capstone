@@ -1,11 +1,11 @@
   applications:
-  - name: paulob
+  - name: djangoapp
     routes:
-      - route: paulob.mybluemix.net
+      - route: pdb24.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
-  - name: paulob-nginx
+  - name: pdb24-nginx
     routes:
-      - route: paulob.mybluemix.net/static
+      - route: pdb24.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
